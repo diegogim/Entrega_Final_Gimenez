@@ -1,0 +1,396 @@
+@media only screen and (max-width: 992px) {
+    .screenSection{
+        height: map-get($map: $heightSS, $key: 'tablet');
+    }
+
+    .margenH{
+        margin: 10px 0px;
+    }
+    
+    .margenP{
+        margin: 10px 10px;
+    }
+
+    #Nosotros{
+        div{
+            article{
+                .img-nos{
+                    height: 30vh;
+                    width: auto;
+                }
+            }
+        }
+    }
+
+    .img-break{
+        height: 30vh;
+    }
+
+    #Eventos{
+        #CarrouselEventos{
+            height: 35vh;
+            div{
+                div{
+                    div{
+                        figure{
+                            .img-carEventos{
+                                width: 200px;
+                                height: 200px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #AyB{
+        div{
+            article{
+                figure{
+                    .img-AyB{
+                        height: 300px;
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+
+    #carrNos{
+        div{
+            div{
+                div{
+                    .img-carNos{
+                        height: map-get($map: $heightSS, $key: 'tablet');
+                    }
+                }
+            }
+        }
+    }
+
+    .text-label{
+        font-size: $textSm;
+    }
+
+    #eventos1{
+        #CarrouselEventos2{
+            height: 35vh;
+        }
+    }
+
+    #eventos2{
+        form{
+            input[type=text]{
+                width: 35vw;
+                margin: 5px 0px;
+                font-size: $textSm;
+            }
+        
+            input[type=tel]{
+                width: 25vw;
+                margin: 5px 5px;
+                font-size: $textSm;
+            }
+        
+            input[type=email]{
+                width: 61vw;
+                margin: 5px 0px;
+                font-size: $textSm;
+            }
+        
+            textarea{
+                width: 61vw;
+                margin: 5px 0px;
+                font-size: $textSm;
+            }
+        }
+    }
+
+    #reserva1{
+        .bordeForm{
+            padding: 1rem 2rem;
+        }
+        div{
+            article{
+                p{
+                    font-size: $textSm;
+                }
+            }
+            #formReserva{
+                form{
+                    input[type=text]{
+                        width: 35vw;
+                        margin: 5px 0px;
+                    }
+                
+                    input[type=tel]{
+                        width: 20vw;
+                        margin: 5px 5px;
+                    }
+                
+                    input[type=email]{
+                        width: 56vw;
+                        margin: 5px 0px;
+
+                    }
+                
+                    textarea{
+                        width: 56vw;
+                        margin: 5px 0px;
+                    }
+                
+                    input[type=date], select{
+                        width: 27vw;
+                        margin: 0 1rem 2rem 0;
+                    }
+
+                    #btnSub{
+                        input[type=submit] {
+                            margin: 1rem 0;
+                        } 
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+        img{
+            height: map-get($map: $heightSS, $key: 'tablet')
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .screenSection{
+        height: map-get($map: $heightSS, $key: 'mobile');
+        align-items: stretch;
+    }
+
+    #Nosotros{
+        div{
+            article{
+                .img-nos{
+                    height: 35vh;
+                }
+            }
+            article{
+                h3{
+                    font-size: $textMd;
+                }
+                h2{
+                    font-size: $textLg;
+                }
+                p{
+                    font-size: $textSm;
+                }
+            }
+        }
+    }
+
+    #Eventos{
+        h2{
+            font-size: $textLg;
+        }
+        #CarrouselEventos{
+            height: 60vh;
+        }
+        div{
+            div{
+                div{
+                    figure{
+                        margin: 1rem;
+                        .img-carEventos{
+                            width: 200px;
+                            height: 200px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    #AyB{
+        div{
+            article{
+                figure{
+                    .img-AyB{
+                        height: 200px;
+                        width: 200px;
+                    }
+                    figcaption{
+                        font-size: $textMd;                 
+                    }
+                }
+            }
+        }
+    }
+
+    #nos1{
+        div{
+            article{
+                .img-nos{
+                    height:300px ;
+                    width: 200px;
+                    padding: 1rem 0 1rem 0;
+                }
+            }
+            article{
+                h3{
+                    font-size: $textMd;
+                }
+                h2{
+                    font-size: $textLg;
+                }
+                p{
+                    font-size: $textSm;
+                }
+            }
+        }
+    }
+
+    #carrNos{
+        height: 450px;
+        div{
+            div{
+                div{
+                    .img-carNos{
+                        height: 450px;
+                    }
+                }
+            }
+        }
+    }
+
+    #nos2{
+        div{
+            article{
+                h3{
+                    font-size: $textMd;
+                }
+                h2{
+                    font-size: $textLg;
+                }
+                p{
+                    font-size: $textSm;
+                }
+            }
+            article{
+                .img-nos{
+                    height:300px ;
+                    width: 200px;
+                    padding: 1rem 0 1rem 0;
+                }
+            }
+        }
+    }
+
+    #eventos1{
+        h2{
+            font-size: $textLg;
+        }
+    }
+
+    .text-Label{
+        font-size: $textSm;
+    }
+
+    #eventos2{
+        h2{
+            font-size: $textLg;
+        }
+        form{
+            input[type=submit] {
+                width: 50vw;
+                font-size: $textSm;
+            }
+        }
+    }
+
+    #reserva1{
+        div{
+            article{
+                h3{
+                    font-size: $textLg;
+                    margin: 5rem 0;
+                }
+                p{
+                    font-size: $textMd;
+                }
+            }
+        }
+        .bordeForm{
+            padding: 1rem 1rem;
+        }
+        div{
+            #formReserva{
+                form{
+                    input[type=text]{
+                        width: 55vw;
+                        margin: 5px 0px;
+                    }
+                
+                    input[type=tel]{
+                        width: 30vw;
+                        margin: 5px 5px;
+                    }
+                
+                    input[type=email]{
+                        width: 86vw;
+                        margin: 5px 0px;
+
+                    }
+                
+                    textarea{
+                        width: 86vw;
+                        margin: 5px 0px;
+                    }
+                
+                    input[type=date], select{
+                        width: 43vw;
+                        margin: 0 1rem 2rem 0;
+                    }
+
+                    #btnSub{
+                        input[type=submit] {
+                        width: 80vw;
+                        font-size: $textSm;
+                        }
+                    } 
+                }
+            }
+        }
+    }
+
+    footer{
+        img{
+            height: map-get($map: $heightSS, $key: 'mobile');
+        }
+        section{
+            h2{
+                font-size: $textXl;
+                font-weight: $textBold; 
+            }
+            p{
+                font-size: $textSm;
+                font-weight: $textReg;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            div{
+                h4{
+                    font-size: $textMd;
+                    font-weight: $textBold;
+                }
+                ul{
+                    li{;
+                        margin-right: 15px;
+                        margin-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+

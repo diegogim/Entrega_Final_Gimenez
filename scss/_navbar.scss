@@ -1,0 +1,24 @@
+#Navbar{
+    background-color: map-get($map: $bgColor, $key: 'nav');
+    position: sticky;
+    top: 0%;
+    z-index: 3;
+    height:$heightNavbar;
+
+    img{
+        height:$heightNavbar - 1;
+    };
+
+    div{
+        justify-content: flex-end;
+        ul{
+            font-size: $textSm;
+            a{
+                color: map-get($map: $textColor, $key: 'gray');
+                &:hover{
+                    color: map-get($map: $textColor, $key: 'white');
+                }
+            }
+        }
+    }
+}

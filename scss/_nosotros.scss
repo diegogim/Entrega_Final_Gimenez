@@ -1,0 +1,88 @@
+#nos1{
+    @extend .borde;
+    @extend .screenSection;
+    div{
+        article{
+            @extend .borde;
+            img{
+                @extend .img-nos;
+            }
+        }
+        article{
+            @extend .borde;
+            h3{
+                @extend .text-center;
+                color: map-get($map: $textColor, $key: 'red');
+                font-size: $textLg;
+                font-weight: $textBold;
+            }
+            h2{
+                @extend .text-center;
+                @extend .text-uppercase;
+                @extend .margenH;
+                color: map-get($map: $textColor, $key: 'white');
+                font-size: $textXl;
+                font-weight: $textBold; 
+            }
+            p{
+                @extend .text-center;
+                @extend .margenP;
+                color: map-get($map: $textColor, $key: 'white');
+                font-size: $textMd;
+                font-weight: $textReg; 
+            }
+        }
+    }
+}
+
+#carrNos{
+    @extend .borde;
+    @extend .screenSection;
+    div{
+        div{
+            @extend .text-center;
+            div{
+                img{
+                    @extend .img-carNos;
+                }
+            }
+        }
+    }
+}
+
+#nos2{
+    @extend .borde;
+    @extend .screenSection;
+    div{
+        article{
+            @extend .borde;
+            h3{
+                @extend .text-center;
+                color: map-get($map: $textColor, $key: 'red');
+                font-size: $textLg;
+                font-weight: $textBold;
+            }
+            h2{
+                @extend .text-center;
+                @extend .text-uppercase;
+                @extend .margenH;
+                color: map-get($map: $textColor, $key: 'white');
+                font-size: $textXl;
+                font-weight: $textBold; 
+            }
+            p{
+                @extend .text-center;
+                @extend .margenP;
+                color: map-get($map: $textColor, $key: 'white');
+                font-size: $textMd;
+                font-weight: $textReg; 
+            }
+        }
+        article{
+            @extend .borde;
+            img{
+                @extend .img-nos;
+            }
+        }
+    }
+}

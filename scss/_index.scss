@@ -1,0 +1,155 @@
+#headerIndex{
+    position: relative;
+    overflow: hidden;
+    video{
+        @extend .mediaHeader;
+    }
+    div{
+        @extend .text-over-header;
+        h1{
+            @extend .text-center;
+            @extend .text-uppercase;
+            color: map-get($map: $textColor, $key: 'white');
+            font-size: $textXxl;
+            font-weight: $textBold;
+        }
+        h2{
+            @extend .text-center;
+            @extend .text-uppercase;
+            color: map-get($map: $textColor, $key: 'red');
+            font-size: $textXl;
+            font-weight: $textBold;
+        }
+    }
+    img{
+        @extend .mediaHeader;
+    }
+}
+
+#Nosotros{
+    @extend .borde;
+    @extend .screenSection;
+    div{
+        @extend .borde;
+        article{
+            @extend .borde;
+            img{
+                @extend .img-nos;
+            }
+        }
+        article{
+            h3{
+                @extend .text-center;
+                color: map-get($map: $textColor, $key: 'red');
+                font-size: $textLg;
+                font-weight: $textBold;
+            }
+            h2{
+                @extend .text-center;
+                @extend .text-uppercase;
+                color: map-get($map: $textColor, $key: 'white');
+                font-size: $textXl;
+                font-weight: $textBold;
+            }
+            p{
+                @extend .text-center;
+                color: map-get($map: $textColor, $key: 'white');
+                font-size: $textMd;
+                font-weight: $textReg; 
+            }
+        }
+    }
+}
+
+#break1{
+    img{
+        @extend .img-break;
+    }
+}
+
+#Eventos{
+    @extend .screenSection;
+    @extend .borde;
+    h2{
+        @extend .borde;
+        @extend .text-center;
+        @extend .text-uppercase;
+        color: map-get($map: $textColor, $key: 'white');
+        font-size: $textXl;
+        font-weight: $textBold;
+    }
+    #CarrouselEventos{
+        @extend .borde;
+        height: 60vh;
+        div{
+            div{
+                div{
+                    figure{
+                        @extend .borde;
+                        @extend .text-center;
+                        padding: 0.25rem;
+                        margin: 5rem;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        img{
+                            @extend .img-carEventos;
+                        }
+                        figcaption{
+                            @extend .py-2;
+                            color: map-get($map: $textColor, $key: 'red');
+                            font-size: $textMd;
+                            font-weight: $textReg;
+                        }
+                        p{
+                            @extend .py-2;
+                            color: map-get($map: $textColor, $key: 'white');
+                            font-size: $textSm;
+                            font-weight: $textLight;  
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#break2{
+    position: relative;
+    overflow: hidden;
+    img{
+        @extend .img-break;
+    }
+    h2{
+        @extend .borde;
+        @extend .text-over-header;
+        @extend .text-center;
+        @extend .text-uppercase;
+        color: map-get($map: $textColor, $key: 'white');
+        font-size: $textXxl;
+        font-weight: $textBold; 
+    }
+}
+
+#AyB{
+    @extend .borde;
+    @extend .screenSection;
+    div{
+        article{
+            @extend .borde;
+            @extend .px-5;
+            figure{
+                @extend .borde;
+                img{
+                    @extend .img-AyB;
+                }
+                figcaption{
+                    @extend .text-center;
+                    color: map-get($map: $textColor, $key: 'white');
+                    font-size: $textLg;
+                    font-weight: $textBold;                   
+                }
+            }
+        }
+    }
+}

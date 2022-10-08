@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+//Fonts
+$fontMain:'Roboto', sans-serif;
+$fontSecondary:'Lato', sans-serif;
+
+//Sizes
+$textXs:1rem;
+$textSm:1.5rem;
+$textMd:2rem;
+$textLg:3rem;
+$textXl:4rem;
+$textXxl:5rem;
+
+//Weights
+$textLight:300;
+$textReg:400;
+$textBold:700;
+
+//Colors
+$textColor:(
+    'white':rgb(255, 255, 255),
+    'gray':rgb(134, 125, 125),
+    'red':rgb(200, 17, 17),
+);
