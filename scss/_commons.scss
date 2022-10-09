@@ -123,3 +123,24 @@ p, figcaption, a{
         font-weight: $textBold;
     }
 }
+
+.nombreElemento{
+    font-family: $fontMain;
+    font-size: $textMd;
+    font-weight: $textReg;
+    color: map-get($map: $textColor, $key: 'white');
+}
+
+.descElemento{
+    font-family: $fontSecondary;
+    font-size: $textSm;
+    font-weight: $textLight;
+    color: map-get($map: $textColor, $key: 'white');
+}
+
+.precioElemento{
+    font-family: $fontSecondary;
+    font-size: $textSm;
+    font-weight: $textReg;
+    color: map-get($map: $textColor, $key: 'white');
+}

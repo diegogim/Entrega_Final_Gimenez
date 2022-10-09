@@ -7944,7 +7944,7 @@ textarea.form-control-lg {
   text-align: right !important;
 }
 
-.text-center, #reserva1 div #formReserva form #btnSub, #reserva1 div article p, #reserva1 div article h3, #reserva1 div article .h3, #eventos2 h2, #eventos2 .h2, #eventos1 #CarrouselEventos2 div div div figure, #eventos1 h2, #eventos1 .h2, #nos2 div article p, #nos2 div article h2, #nos2 div article .h2, #nos2 div article h3, #nos2 div article .h3, #carrNos div div, #nos1 div article p, #nos1 div article h2, #nos1 div article .h2, #nos1 div article h3, #nos1 div article .h3, footer section div h4, footer section div .h4, footer section p, footer section h2, footer section .h2, #AyB div article figure figcaption, #break2 h2, #break2 .h2, #Eventos #CarrouselEventos div div div figure, #Eventos h2, #Eventos .h2, #Nosotros div article p, #Nosotros div article h2, #Nosotros div article .h2, #Nosotros div article h3, #Nosotros div article .h3, #headerIndex div h2, #headerIndex div .h2, #headerIndex div h1, #headerIndex div .h1, #headerSecondary h2, #headerSecondary .h2 {
+.text-center, #reserva1 div #formReserva form #btnSub, #reserva1 div article p, #reserva1 div article h3, #reserva1 div article .h3, #eventos2 h2, #eventos2 .h2, #eventos1 #CarrouselEventos2 div div div figure, #eventos1 h2, #eventos1 .h2, main #sectionMenu #subsectionMenu h4, main #sectionMenu #subsectionMenu .h4, main h3, main .h3, #nos2 div article p, #nos2 div article h2, #nos2 div article .h2, #nos2 div article h3, #nos2 div article .h3, #carrNos div div, #nos1 div article p, #nos1 div article h2, #nos1 div article .h2, #nos1 div article h3, #nos1 div article .h3, footer section div h4, footer section div .h4, footer section p, footer section h2, footer section .h2, #AyB div article figure figcaption, #break2 h2, #break2 .h2, #Eventos #CarrouselEventos div div div figure, #Eventos h2, #Eventos .h2, #Nosotros div article p, #Nosotros div article h2, #Nosotros div article .h2, #Nosotros div article h3, #Nosotros div article .h3, #headerIndex div h2, #headerIndex div .h2, #headerIndex div h1, #headerIndex div .h1, #headerSecondary h2, #headerSecondary .h2 {
   text-align: center !important;
 }
 
@@ -7964,7 +7964,7 @@ textarea.form-control-lg {
   text-transform: lowercase !important;
 }
 
-.text-uppercase, #eventos2 h2, #eventos2 .h2, #eventos1 h2, #eventos1 .h2, #nos2 div article h2, #nos2 div article .h2, #nos1 div article h2, #nos1 div article .h2, footer section div h4, footer section div .h4, footer section h2, footer section .h2, #break2 h2, #break2 .h2, #Eventos h2, #Eventos .h2, #Nosotros div article h2, #Nosotros div article .h2, #headerIndex div h2, #headerIndex div .h2, #headerIndex div h1, #headerIndex div .h1, #headerSecondary h2, #headerSecondary .h2 {
+.text-uppercase, #eventos2 h2, #eventos2 .h2, #eventos1 h2, #eventos1 .h2, main #sectionMenu #subsectionMenu h4, main #sectionMenu #subsectionMenu .h4, main h3, main .h3, #nos2 div article h2, #nos2 div article .h2, #nos1 div article h2, #nos1 div article .h2, footer section div h4, footer section div .h4, footer section h2, footer section .h2, #break2 h2, #break2 .h2, #Eventos h2, #Eventos .h2, #Nosotros div article h2, #Nosotros div article .h2, #headerIndex div h2, #headerIndex div .h2, #headerIndex div h1, #headerIndex div .h1, #headerSecondary h2, #headerSecondary .h2 {
   text-transform: uppercase !important;
 }
 
@@ -10772,7 +10772,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.borde, #reserva1 div #formReserva, #reserva1 div article p, #reserva1 div article h3, #reserva1 div article .h3, #reserva1 div article, #reserva1, #eventos2 h2, #eventos2 .h2, #eventos2, #eventos1 #CarrouselEventos2 div div div figure, #eventos1 #CarrouselEventos2, #eventos1 h2, #eventos1 .h2, #nos2 div article, #nos2, #carrNos, #nos1 div article, #nos1, footer section, #AyB div article figure, #AyB div article, #AyB, #break2 h2, #break2 .h2, #Eventos #CarrouselEventos div div div figure, #Eventos #CarrouselEventos, #Eventos h2, #Eventos .h2, #Eventos, #Nosotros div article, #Nosotros div, #Nosotros {
+.borde, #reserva1 div #formReserva, #reserva1 div article p, #reserva1 div article h3, #reserva1 div article .h3, #reserva1 div article, #reserva1, #eventos2 h2, #eventos2 .h2, #eventos2, #eventos1 #CarrouselEventos2 div div div figure, #eventos1 #CarrouselEventos2, #eventos1 h2, #eventos1 .h2, main #sectionMenu #elementoMenu div div img, main #sectionMenu #elementoMenu div div, main h3, main .h3, #nos2 div article, #nos2, #carrNos, #nos1 div article, #nos1, footer section, #AyB div article figure, #AyB div article, #AyB, #break2 h2, #break2 .h2, #Eventos #CarrouselEventos div div div figure, #Eventos #CarrouselEventos, #Eventos h2, #Eventos .h2, #Eventos, #Nosotros div article, #Nosotros div, #Nosotros {
   border-color: white;
   border-style: none;
 }
@@ -10904,6 +10904,27 @@ p, figcaption, a {
   font-family: "Roboto", sans-serif;
   font-size: 5rem;
   font-weight: 700;
+}
+
+.nombreElemento, main #sectionMenu #elementoMenu div div div h5, main #sectionMenu #elementoMenu div div div .h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+.descElemento, main #sectionMenu #elementoMenu div div div p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+}
+
+.precioElemento {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
 }
 
 #Navbar {
@@ -11072,6 +11093,46 @@ footer section div ul li a img {
   font-size: 2rem;
   font-weight: 400;
 }
+main {
+  background-color: rgb(17, 17, 17);
+}
+main h3, main .h3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: rgb(200, 17, 17);
+  font-size: 4rem;
+  font-weight: 400;
+}
+main #sectionMenu #subsectionMenu {
+  border-color: rgb(17, 17, 17);
+  margin: 1.5rem 1rem;
+}
+main #sectionMenu #subsectionMenu h4, main #sectionMenu #subsectionMenu .h4 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 400;
+}
+main #sectionMenu #elementoMenu {
+  border-color: rgb(32, 28, 28);
+  border-style: solid;
+  border-radius: 1rem;
+  margin: 1.5rem 1rem;
+}
+main #sectionMenu #elementoMenu div {
+  background-color: rgb(32, 28, 28);
+}
+main #sectionMenu #elementoMenu div div img {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 150px;
+  height: 150px;
+}
+main #sectionMenu #elementoMenu div div {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 #eventos1 h2, #eventos1 .h2 {
   color: rgb(255, 255, 255);
   font-size: 4rem;
@@ -11217,6 +11278,10 @@ footer section div ul li a img {
   #carrNos div div div .img-carNos, #carrNos div div div img {
     height: 50vh;
   }
+  main #sectionMenu #elementoMenu div div img {
+    width: 200px;
+    height: 200px;
+  }
   .text-label, #eventos2 form, #reserva1 div #formReserva form {
     font-size: 1.5rem;
   }
@@ -11346,6 +11411,10 @@ footer section div ul li a img {
     height: 300px;
     width: 200px;
     padding: 1rem 0 1rem 0;
+  }
+  main #sectionMenu #elementoMenu div div img {
+    width: 250px;
+    height: 250px;
   }
   #eventos1 h2, #eventos1 .h2 {
     font-size: 3rem;

@@ -1,0 +1,62 @@
+main{
+    background-color: map-get($map: $bgColor, $key: 'section');
+    h3{
+        @extend .borde;
+        @extend .text-center;
+        @extend .text-uppercase;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        color: map-get($map: $textColor, $key: 'red');
+        font-size: $textXl;
+        font-weight: $textReg;
+    }
+
+
+    #sectionMenu{
+        #subsectionMenu{
+            border-color: map-get($map: $bgColor, $key: 'section');
+            margin: 1.5rem 1rem;
+            h4{
+                @extend .text-center;
+                @extend .text-uppercase;
+                padding-top: 3rem;
+                padding-bottom: 3rem;
+                color: map-get($map: $textColor, $key: 'white');
+                font-size: $textLg;
+                font-weight: $textReg;
+            }
+        }
+        #elementoMenu{
+            border-color: map-get($map: $paletaColor, $key: 'InputDrop');
+            border-style: solid;
+            border-radius: 1rem;
+            margin: 1.5rem 1rem;
+            div{
+                background-color: map-get($map: $paletaColor, $key: 'InputDrop');
+                div{
+                    @extend .borde;
+                    img{
+                        @extend .borde;
+                        margin-left: 1rem;
+                        margin-right: 1rem;
+                        width: 150px;
+                        height: 150px;
+                    }
+                }
+                div{
+                    margin-top: 1rem;
+                    margin-bottom: 1rem;
+                    div{
+                        h5{
+                            @extend .nombreElemento;
+                        }
+                        p{
+                            @extend .descElemento;
+                        }
+                    }
+                }
+            } 
+        }
+    }
+
+}

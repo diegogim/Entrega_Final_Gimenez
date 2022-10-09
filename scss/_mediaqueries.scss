@@ -69,6 +69,21 @@
         }
     }
 
+    main{
+        #sectionMenu{
+            #elementoMenu{
+                div{
+                    div{
+                        img{
+                            width: 200px;
+                            height: 200px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     .text-label{
         font-size: $textSm;
     }
@@ -281,6 +296,21 @@
                     height:300px ;
                     width: 200px;
                     padding: 1rem 0 1rem 0;
+                }
+            }
+        }
+    }
+
+    main{
+        #sectionMenu{
+            #elementoMenu{
+                div{
+                    div{
+                        img{
+                            width: 250px;
+                            height: 250px;
+                        }
+                    }
                 }
             }
         }
