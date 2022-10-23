@@ -11,52 +11,80 @@ main{
         font-weight: $textReg;
     }
 
+    #accordionBebidas, #accordionAlimentos{
+        font-size: $textSm;
+        font-weight: $textLight;
+        color: map-get($map: $textColor, $key: 'white');
+        background-color: map-get($map: $bgColor, $key: 'section');
 
-    #sectionMenu{
-        #subsectionMenu{
-            border-color: map-get($map: $bgColor, $key: 'section');
-            margin: 1.5rem 1rem;
-            h4{
+        #headingOne, #headingTwo, #headingThree, #headingFour, #headingFive, #headingSix, #headingSeven{
+            padding-left: 2rem;
+            button{
+                @extend .borde;
                 @extend .text-center;
                 @extend .text-uppercase;
-                padding-top: 3rem;
-                padding-bottom: 3rem;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
                 color: map-get($map: $textColor, $key: 'white');
                 font-size: $textLg;
                 font-weight: $textReg;
+                background-color: map-get($map: $bgColor, $key: 'section');
             }
         }
-        #elementoMenu{
-            border-color: map-get($map: $paletaColor, $key: 'InputDrop');
-            border-style: solid;
-            border-radius: 1rem;
-            margin: 1.5rem 1rem;
-            div{
-                background-color: map-get($map: $paletaColor, $key: 'InputDrop');
-                div{
-                    @extend .borde;
-                    img{
-                        @extend .borde;
-                        margin-left: 1rem;
-                        margin-right: 1rem;
-                        width: 150px;
-                        height: 150px;
+
+        #collapseOne, #collapseTwo, #collapseThree, #collapseFour, #collapseFive, #collapseSix, #collapseSeven{
+            .accordion-body{
+                #sectionMenu{
+                    margin: 1.5rem 1rem;
+                    #elementoMenu{
+                        border-color: map-get($map: $paletaColor, $key: 'InputDrop');
+                        border-style: solid;
+                        border-radius: 1rem;
+                        background-color: map-get($map: $paletaColor, $key: 'InputDrop');
+                        padding: 0 1.5rem;
+                        div{
+                            div{
+                                @extend .borde;
+                                img{
+                                    @extend .borde;
+                                    margin-left: 1rem;
+                                    margin-right: 1rem;
+                                    width: 150px;
+                                    height: 150px;
+                                    object-fit: cover;
+                                }
+                            }
+                            div{
+                                margin-top: 1rem;
+                                margin-bottom: 1rem;
+                                div{
+                                    h5{
+                                        @extend .nombreElemento;
+                                        margin-left: 1.5rem;
+                                    }
+                                    p{
+                                        @extend .descElemento;
+                                        margin-left: 1.5rem;
+                                    }
+                                }
+                            }
+                        } 
                     }
                 }
-                div{
-                    margin-top: 1rem;
-                    margin-bottom: 1rem;
-                    div{
-                        h5{
-                            @extend .nombreElemento;
-                        }
-                        p{
-                            @extend .descElemento;
-                        }
-                    }
-                }
-            } 
+            }
         }
     }
 
+    
+
+    h4{
+        @extend .borde;
+        @extend .text-center;
+        @extend .text-uppercase;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        color: map-get($map: $textColor, $key: 'white');
+        font-size: $textLg;
+        font-weight: $textReg;
+    }
 }

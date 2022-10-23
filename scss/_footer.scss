@@ -2,7 +2,7 @@ footer{
     position: relative;
     overflow: hidden;
     img{
-        height: map-get($map: $heightSS, $key: 'desktop');
+        height: map-get($map: $heightSS, $key: 'desktop') - 0.5;
         width: 100%;
         object-fit: cover;
     }
