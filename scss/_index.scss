@@ -38,21 +38,26 @@
             }
         }
         article{
-            h3{
-                @extend .text-center;
-                color: map-get($map: $textColor, $key: 'red');
-                font-size: $textLg;
-                font-weight: $textBold;
-            }
             h2{
                 @extend .text-center;
                 @extend .text-uppercase;
+                padding-bottom: 1.5rem;
+                @extend .textUnderline;
                 color: map-get($map: $textColor, $key: 'white');
                 font-size: $textXl;
                 font-weight: $textBold;
             }
             p{
                 @extend .text-center;
+                color: map-get($map: $textColor, $key: 'white');
+                font-size: $textMd;
+                font-weight: $textReg; 
+            }
+            a{
+                text-decoration: none;
+                @extend .text-center;
+                padding-bottom: 0.5rem; 
+                @extend .hoverSoft;
                 color: map-get($map: $textColor, $key: 'white');
                 font-size: $textMd;
                 font-weight: $textReg; 
@@ -74,6 +79,8 @@
         @extend .borde;
         @extend .text-center;
         @extend .text-uppercase;
+        padding-bottom: 1.5rem;
+        @extend .textUnderline;
         color: map-get($map: $textColor, $key: 'white');
         font-size: $textXl;
         font-weight: $textBold;
@@ -138,16 +145,26 @@
         article{
             @extend .borde;
             padding: 0 15rem 0 15rem;
-            figure{
-                @extend .borde;
-                img{
-                    @extend .img-AyB;
-                }
-                figcaption{
-                    @extend .text-center;
-                    color: map-get($map: $textColor, $key: 'white');
-                    font-size: $textLg;
-                    font-weight: $textBold;                   
+            a{
+                position: relative;
+
+                figure{
+                    @extend .borde;
+                    img{
+                        @extend .img-AyB;
+                    }
+                    figcaption{
+                        @extend .hoverHard;
+                        @extend .text-center;
+                        color: map-get($map: $textColor, $key: 'white');
+                        font-size: $textXl;
+                        font-weight: $textBold;  
+                        
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                    }
                 }
             }
         }

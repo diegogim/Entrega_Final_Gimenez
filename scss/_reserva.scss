@@ -8,7 +8,7 @@
                 @extend .borde;
                 @extend .text-center;
                 @extend .margenH;
-                color: map-get($map: $textColor, $key: 'red');
+                color: map-get($map: $textColor, $key: 'white');
                 font-size: $textLg;
                 font-weight: $textReg;
             }

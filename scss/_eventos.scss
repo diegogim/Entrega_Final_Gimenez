@@ -4,6 +4,8 @@
         @extend .borde;
         @extend .text-center;
         @extend .text-uppercase;
+        padding-bottom: 1.5rem;
+        @extend .textUnderline;
         color: map-get($map: $textColor, $key: 'white');
         font-size: $textXl;
         font-weight: $textBold;
@@ -53,6 +55,8 @@
         @extend .borde;
         @extend .text-center;
         @extend .text-uppercase;
+        padding-bottom: 1.5rem;
+        @extend .textUnderline;
         color: map-get($map: $textColor, $key: 'white');
         font-size: $textXl;
         font-weight: $textBold;

@@ -14,10 +14,8 @@
         ul{
             font-size: $textSm;
             a{
-                color: map-get($map: $textColor, $key: 'gray');
-                &:hover{
-                    color: map-get($map: $textColor, $key: 'white');
-                }
+                color: map-get($map: $textColor, $key: 'white');
+                @extend .hoverSoft;
             }
         }
     }
