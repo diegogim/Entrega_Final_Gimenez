@@ -1,6 +1,6 @@
 main{
     background-color: map-get($map: $bgColor, $key: 'section');
-    #inicioBebidas, #inicioAlimentos{
+    #titleBebidas, #titleAlimentos{
         @extend .borde;
         @extend .text-center;
         @extend .text-uppercase;
@@ -39,14 +39,14 @@ main{
         #collapseOne, #collapseTwo, #collapseThree, #collapseFour, #collapseFive, #collapseSix, #collapseSeven{
             .accordion-body{
                 #sectionMenu{
-                    margin: 1.5rem 1rem;
+                    margin: 1.5rem 1rem 1.5rem 0;
                     #elementoMenu{
                         @extend .borde;
                         border-color: map-get($map: $paletaColor, $key: 'InputDrop');
                         border-style: solid;
                         border-radius: 1rem;
                         background-color: map-get($map: $paletaColor, $key: 'InputDrop');
-                        padding: 0 1.5rem;
+                        padding: 0 1rem;
                         margin: 1rem;
                         #elementoSinImg{
                             #containerInfo{
@@ -71,8 +71,7 @@ main{
                         #elementoImg{
                             #containerImg{
                                 @extend .borde;
-                                height: 150px;
-                                width: 150px;
+                                
                                 overflow: hidden;
                                 img{
                                     @extend .borde;
