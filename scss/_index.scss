@@ -1,6 +1,7 @@
 #headerIndex{
     position: relative;
     overflow: hidden;
+    background-color: map-get($map: $bgColor, $key: 'section');
     video{
         @extend .mediaHeader;
     }
@@ -75,15 +76,17 @@
 #Eventos{
     @extend .screenSection;
     @extend .borde;
-    h2{
-        @extend .borde;
-        @extend .text-center;
-        @extend .text-uppercase;
-        padding-bottom: 1.5rem;
-        @extend .textUnderline;
-        color: map-get($map: $textColor, $key: 'white');
-        font-size: $textXl;
-        font-weight: $textBold;
+    div{
+        h2{
+            @extend .borde;
+            @extend .text-center;
+            @extend .text-uppercase;
+            padding-bottom: 1.5rem;
+            @extend .textUnderline;
+            color: map-get($map: $textColor, $key: 'white');
+            font-size: $textXl;
+            font-weight: $textBold;
+        }
     }
     #CarrouselEventos{
         @extend .borde;
@@ -91,11 +94,11 @@
         div{
             div{
                 div{
+                    margin-top: 3rem;
                     figure{
                         @extend .borde;
                         @extend .text-center;
-                        padding: 0.25rem;
-                        margin: 5rem;
+                        margin-bottom: 3rem;
                         display: flex;
                         flex-direction: column;
                         align-items: center;

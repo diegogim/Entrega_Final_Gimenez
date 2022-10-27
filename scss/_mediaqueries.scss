@@ -34,8 +34,8 @@
                     div{
                         figure{
                             .img-carEventos{
-                                width: 200px;
-                                height: 200px;
+                                width: 150px;
+                                height: 150px;
                             }
                         }
                     }
@@ -93,12 +93,26 @@
     }
 
     #eventos1{
+        height: 50vh;
         #CarrouselEventos2{
             height: 35vh;
+            div{
+                div{
+                    div{
+                        figure{
+                            .img-carEventos{
+                                width: 150px;
+                                height: 150px;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 
     #eventos2{
+        height: 80vh;
         form{
             input[type=text]{
                 width: 35vw;
@@ -209,11 +223,12 @@
     }
 
     #Eventos{
+        height: 70vh;
         h2{
             font-size: $textLg;
         }
         #CarrouselEventos{
-            height: 60vh;
+            height: 40vh;
         }
         div{
             div{
@@ -331,6 +346,7 @@
     }
 
     #eventos2{
+        height: 80vh;
         h2{
             font-size: $textLg;
         }

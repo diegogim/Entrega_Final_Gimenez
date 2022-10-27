@@ -24,6 +24,19 @@ $textColor:(
     'red':rgb(200, 17, 17),
 );
 
+.text-label{
+    text-align: center;
+    color: map-get($map: $textColor, $key: 'white');
+    font-size: $textSm;
+    font-family: $fontSecondary;
+}
+
+.text-input{
+    color: map-get($map: $textColor, $key: 'white');
+    font-family: $fontSecondary;
+    font-size: $textSm;
+}
+
 .textUnderline{
     display: inline-block;
     position: relative;

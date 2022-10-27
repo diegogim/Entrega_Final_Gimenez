@@ -51,6 +51,7 @@
 #eventos2{
     @extend .borde;
     @extend .screenSection;
+    height: 100vh;
     h2{
         @extend .borde;
         @extend .text-center;
@@ -69,13 +70,13 @@
             @extend .bordeFieldForm;
             @extend .text-input;
             width: 25vw;
-            margin: 10px 0px;
+            margin: 1rem 0px;
         }
         input[type=tel], select{
             @extend .bordeFieldForm;
             @extend .text-input;
             width: 15vw;
-            margin: 10px 5px;
+            margin: 1rem 5px;
         }
         input[type=email], select{
             @extend .bordeFieldForm;
@@ -94,7 +95,7 @@
             height: 5vh;
             font-size: $textSm;
             padding: 0 1rem;
-            margin: 2rem 0;
+            margin-top: 1rem;
             background-color: map-get($map: $paletaColor, $key: 'BtnSubmit');
             border: none;
             color: map-get($map: $textColor, $key: 'white');

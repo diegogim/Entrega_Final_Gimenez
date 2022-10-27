@@ -6,19 +6,6 @@ h4, h5, p, figcaption, a{
     font-family: $fontSecondary;
 }
 
-.text-label{
-    text-align: center;
-    color: map-get($map: $textColor, $key: 'white');
-    font-size: $textMd;
-    font-family: $fontSecondary;
-}
-
-.text-input{
-    color: map-get($map: $textColor, $key: 'white');
-    font-family: $fontSecondary;
-    font-size: $textSm;
-}
-
 .bordeForm{
     border-color:map-get($map: $paletaColor, $key: 'bordeForm');
     border-style: solid;
@@ -70,8 +57,8 @@ h4, h5, p, figcaption, a{
 }
 
 .img-nos{
-    height:450px ;
-    width: 350px;
+    height:350px ;
+    width: 300px;
     object-fit: cover;
 }
 
@@ -82,8 +69,8 @@ h4, h5, p, figcaption, a{
 }
 
 .img-AyB{
-    height: 450px;
-    width: 450px;
+    height: 350px;
+    width: 350px;
     object-fit: cover;
     filter: grayscale(0.7);
 }
