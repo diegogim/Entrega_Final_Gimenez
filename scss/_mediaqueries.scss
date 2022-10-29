@@ -28,14 +28,13 @@
 
     #Eventos{
         #CarrouselEventos{
-            height: 35vh;
             div{
                 div{
                     div{
                         figure{
                             .img-carEventos{
-                                width: 150px;
-                                height: 150px;
+                                width: 200px;
+                                height: 200px;
                             }
                         }
                     }
@@ -93,16 +92,17 @@
     }
 
     #eventos1{
-        height: 50vh;
+        h2{
+            margin-top: 5rem;
+        }
         #CarrouselEventos2{
-            height: 35vh;
             div{
                 div{
                     div{
                         figure{
                             .img-carEventos{
-                                width: 150px;
-                                height: 150px;
+                                width: 200px;
+                                height: 200px;
                             }
                         }
                     }
@@ -223,12 +223,10 @@
     }
 
     #Eventos{
-        height: 70vh;
         h2{
             font-size: $textLg;
         }
         #CarrouselEventos{
-            height: 40vh;
         }
         div{
             div{
@@ -236,8 +234,8 @@
                     figure{
                         margin: 1rem;
                         .img-carEventos{
-                            width: 200px;
-                            height: 200px;
+                            width: 150px;
+                            height: 150px;
                         }
                     }
                 }
@@ -346,7 +344,6 @@
     }
 
     #eventos2{
-        height: 80vh;
         h2{
             font-size: $textLg;
         }

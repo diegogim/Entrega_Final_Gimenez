@@ -25,9 +25,7 @@
                         flex-direction: column;
                         align-items: center;
                         img{
-                            width: 200px;
-                            height: 200px;
-                            object-fit: cover;
+                            @extend .img-carEventos;
                         }
                         figcaption{
                             @extend .py-2;
