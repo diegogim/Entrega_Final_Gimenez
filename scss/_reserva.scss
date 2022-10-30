@@ -4,13 +4,16 @@
         article{
             @extend .borde;
             @extend .screenSection;
-            h3{
-                @extend .borde;
-                @extend .text-center;
-                @extend .margenH;
-                color: map-get($map: $textColor, $key: 'white');
-                font-size: $titleXl;
-                font-weight: $textReg;
+            #titleReserva{
+                @extend .textUnderline;
+                h3{
+                    @extend .borde;
+                    @extend .text-center;
+                    @extend .text-uppercase;
+                    color: map-get($map: $textColor, $key: 'white');
+                    font-size: $titleLg;
+                    font-weight: $textReg;
+                }
             }
             p{
                 @extend .borde;

@@ -111,6 +111,7 @@ h4, h5, p, figcaption, a{
 #headerSecondary{
     position: relative;
     overflow: hidden;
+    background-color: map-get($map: $bgColor, $key: 'section');
     img{
         @extend .mediaHeader;
     }

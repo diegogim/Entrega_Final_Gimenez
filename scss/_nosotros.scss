@@ -10,13 +10,15 @@
         }
         article{
             @extend .borde;
-            h2{
-                @extend .text-center;
-                @extend .text-uppercase;
-                @extend .margenH;
-                color: map-get($map: $textColor, $key: 'white');
-                font-size: $titleLg;
-                font-weight: $textBold; 
+            div{
+                @extend .textUnderline;
+                h2{
+                    @extend .text-center;
+                    @extend .text-uppercase;
+                    color: map-get($map: $textColor, $key: 'white');
+                    font-size: $titleLg;
+                    font-weight: $textBold; 
+                }
             }
             p{
                 @extend .text-center;
@@ -50,19 +52,15 @@
     div{
         article{
             @extend .borde;
-            h3{
-                @extend .text-center;
-                color: map-get($map: $textColor, $key: 'red');
-                font-size: $textLg;
-                font-weight: $textBold;
-            }
-            h2{
-                @extend .text-center;
-                @extend .text-uppercase;
-                @extend .margenH;
-                color: map-get($map: $textColor, $key: 'white');
-                font-size: $titleLg;
-                font-weight: $textBold; 
+            div{
+                @extend .textUnderline;
+                h2{
+                    @extend .text-center;
+                    @extend .text-uppercase;
+                    color: map-get($map: $textColor, $key: 'white');
+                    font-size: $titleLg;
+                    font-weight: $textBold; 
+                }
             }
             p{
                 @extend .text-center;

@@ -1,4 +1,10 @@
 @media only screen and (max-width: 992px) {
+    #Navbar{
+        img{
+            height:$heightNavbar - 5;
+        };
+    }
+
     #headerIndex{
         div{
             h1{
@@ -295,6 +301,12 @@
 }
 
 @media only screen and (max-width: 768px) {
+    #Navbar{
+        img{
+            height:$heightNavbar - 4;
+        };
+    }
+
     #headerIndex{
         div{
             h1{
@@ -391,8 +403,10 @@
                 }
             }
             article{
-                h2{
-                    font-size: $textLg;
+                div{
+                    h2{
+                        font-size: $titleMd;
+                    }
                 }
                 p{
                     font-size: $textSm;
@@ -419,8 +433,10 @@
     #nos2{
         div{
             article{
-                h2{
-                    font-size: $textLg;
+                div{
+                    h2{
+                        font-size: $titleMd;
+                    }
                 }
                 p{
                     font-size: $textSm;
@@ -479,9 +495,11 @@
     #reserva1{
         div{
             article{
-                h3{
-                    font-size: $textLg;
+                #titleReserva{
                     margin: 5rem 0;
+                    h3{
+                        font-size: $textXl;
+                    }
                 }
                 p{
                     font-size: $textMd;

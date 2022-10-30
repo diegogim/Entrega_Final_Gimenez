@@ -18,7 +18,7 @@ main{
         color: map-get($map: $textColor, $key: 'white');
         background-color: map-get($map: $bgColor, $key: 'section');
 
-        #headingOne, #headingTwo, #headingThree, #headingFour, #headingFive, #headingSix, #headingSeven{
+        #headingOne, #headingTwo, #headingThree, #headingFour, #headingFive, #headingSix, #headingSeven, #headingEight{
             padding-left: 2rem;
             button{
                 @extend .borde;
@@ -36,7 +36,7 @@ main{
             }
         }
 
-        #collapseOne, #collapseTwo, #collapseThree, #collapseFour, #collapseFive, #collapseSix, #collapseSeven{
+        #collapseOne, #collapseTwo, #collapseThree, #collapseFour, #collapseFive, #collapseSix, #collapseSeven, #collapseEight{
             .accordion-body{
                 #sectionMenu{
                     margin: 1.5rem 1rem 1.5rem 0;
