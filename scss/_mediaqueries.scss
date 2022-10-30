@@ -94,8 +94,11 @@
                 }
             }
             article{
-                h2{
-                    font-size: $textXl;
+                div{
+                    margin-bottom: 2rem;
+                    h2{
+                        font-size: $textXl;
+                    }
                 }
                 p{
                     font-size: $textMd;
@@ -122,8 +125,11 @@
     #nos2{
         div{
             article{
-                h2{
-                    font-size: $textXl;
+                div{
+                    margin-bottom: 3rem;
+                    h2{
+                        font-size: $textXl;
+                    }
                 }
                 p{
                     font-size: $textMd;
@@ -166,7 +172,7 @@
     #eventos1{
         h2{
             margin-top: 5rem;
-            font-size: $titleLg;
+            font-size: $titleMd;
         }
         #CarrouselEventos2{
             div{
@@ -187,7 +193,7 @@
     #eventos2{
         height: 80vh;
         h2{
-            font-size: $titleLg;
+            font-size: $titleMd;
         }
         form{
             input[type=text]{
@@ -219,8 +225,11 @@
     #reserva1{
         div{
             article{
-                h3{
-                    font-size: $titleMd;
+                #titleReserva{
+                    margin-bottom: 3rem;
+                    h3{
+                        font-size: $titleMd;
+                    }
                 }
                 p{
                     font-size: $textLg;

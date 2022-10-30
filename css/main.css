@@ -11435,7 +11435,10 @@ main #accordionBebidas #collapseOne .accordion-body #sectionMenu #elementoMenu #
     width: 250px;
     padding: 1rem 0 1rem 0;
   }
-  #nos1 div article h2, #nos1 div article .h2 {
+  #nos1 div article div {
+    margin-bottom: 2rem;
+  }
+  #nos1 div article div h2, #nos1 div article div .h2 {
     font-size: 4rem;
   }
   #nos1 div article p {
@@ -11449,7 +11452,10 @@ main #accordionBebidas #collapseOne .accordion-body #sectionMenu #elementoMenu #
     height: 400px;
     overflow: hidden;
   }
-  #nos2 div article h2, #nos2 div article .h2 {
+  #nos2 div article div {
+    margin-bottom: 3rem;
+  }
+  #nos2 div article div h2, #nos2 div article div .h2 {
     font-size: 4rem;
   }
   #nos2 div article p {
@@ -11468,7 +11474,7 @@ main #accordionBebidas #collapseOne .accordion-body #sectionMenu #elementoMenu #
   }
   #eventos1 h2, #eventos1 .h2 {
     margin-top: 5rem;
-    font-size: 8rem;
+    font-size: 5rem;
   }
   #eventos1 #CarrouselEventos2 div div div figure .img-carEventos, #eventos1 #CarrouselEventos2 div div div figure img {
     width: 200px;
@@ -11478,7 +11484,7 @@ main #accordionBebidas #collapseOne .accordion-body #sectionMenu #elementoMenu #
     height: 80vh;
   }
   #eventos2 h2, #eventos2 .h2 {
-    font-size: 8rem;
+    font-size: 5rem;
   }
   #eventos2 form input[type=text] {
     width: 35vw;
@@ -11500,7 +11506,10 @@ main #accordionBebidas #collapseOne .accordion-body #sectionMenu #elementoMenu #
     margin: 5px 0px;
     font-size: 1.5rem;
   }
-  #reserva1 div article h3, #reserva1 div article .h3 {
+  #reserva1 div article #titleReserva {
+    margin-bottom: 3rem;
+  }
+  #reserva1 div article #titleReserva h3, #reserva1 div article #titleReserva .h3 {
     font-size: 5rem;
   }
   #reserva1 div article p {
