@@ -7,18 +7,21 @@
     }
     div{
         @extend .text-over-header;
+        background-color: map-get($map: $bgColor, $key: 'footer');
+        height: 100%;
+        width: 100%;
         h1{
             @extend .text-center;
             @extend .text-uppercase;
             color: map-get($map: $textColor, $key: 'white');
-            font-size: $textXxl;
+            font-size: $titleXxl;
             font-weight: $textBold;
         }
         h2{
             @extend .text-center;
             @extend .text-uppercase;
             color: map-get($map: $textColor, $key: 'red');
-            font-size: $textXl;
+            font-size: $titleXl;
             font-weight: $textBold;
         }
     }
@@ -45,7 +48,7 @@
                 padding-bottom: 1.5rem;
                 @extend .textUnderline;
                 color: map-get($map: $textColor, $key: 'white');
-                font-size: $textXl;
+                font-size: $titleLg;
                 font-weight: $textBold;
             }
             p{
@@ -84,7 +87,7 @@
             padding-bottom: 1.5rem;
             @extend .textUnderline;
             color: map-get($map: $textColor, $key: 'white');
-            font-size: $textXl;
+            font-size: $titleLg;
             font-weight: $textBold;
         }
     }
@@ -129,14 +132,19 @@
     img{
         @extend .img-break;
     }
-    h2{
+    div{
+        @extend .text-over-break;
+        background-color: map-get($map: $bgColor, $key: 'footer');
+        height: 100%;
+        width: 100%;
         @extend .borde;
-        @extend .text-over-header;
-        @extend .text-center;
-        @extend .text-uppercase;
-        color: map-get($map: $textColor, $key: 'white');
-        font-size: $textXxl;
-        font-weight: $textBold; 
+        h2{
+            @extend .text-center;
+            @extend .text-uppercase;
+            color: map-get($map: $textColor, $key: 'white');
+            font-size: $titleLg;
+            font-weight: $textBold; 
+        }
     }
 }
 
@@ -149,7 +157,6 @@
             padding: 5rem 15rem 5rem 15rem;
             a{
                 position: relative;
-
                 figure{
                     @extend .borde;
                     img{
@@ -163,7 +170,7 @@
                         font-weight: $textBold;  
                         
                         position: absolute;
-                        top: 50%;
+                        top: 30%;
                         left: 50%;
                         transform: translate(-50%, -50%);
                     }

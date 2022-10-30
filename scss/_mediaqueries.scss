@@ -1,4 +1,23 @@
 @media only screen and (max-width: 992px) {
+    #headerIndex{
+        div{
+            h1{
+                font-size: $titleXl;
+            }
+            h2{
+                font-size: $titleLg;
+            }
+        }
+    }
+
+    #headerSecondary{
+        div{
+            h2{    
+                font-size: $titleXl;
+            }
+        }
+    }
+
     .screenSection{
         height: map-get($map: $heightSS, $key: 'tablet');
     }
@@ -17,6 +36,9 @@
                 .img-nos{
                     height: 30vh;
                     width: auto;
+                }
+                p{
+                    margin-right: 3rem;
                 }
             }
         }
@@ -56,17 +78,61 @@
         }
     }
 
+    #nos1{
+        div{
+            article{
+                .img-nos{
+                    height:350px ;
+                    width: 250px;
+                    padding: 1rem 0 1rem 0;
+                }
+            }
+            article{
+                h2{
+                    font-size: $textXl;
+                }
+                p{
+                    font-size: $textMd;
+                }
+            }
+        }
+    }
+
     #carrNos{
+        height: 500px;
         div{
             div{
                 div{
                     .img-carNos{
-                        height: map-get($map: $heightSS, $key: 'tablet');
+                        width: 100%;
+                        height: 400px;
+                        overflow: hidden;
                     }
                 }
             }
         }
     }
+
+    #nos2{
+        div{
+            article{
+                h2{
+                    font-size: $textXl;
+                }
+                p{
+                    font-size: $textMd;
+                }
+            }
+            article{
+                .img-nos{
+                    height:300px ;
+                    width: 300px;
+                    padding: 1rem 0 1rem 0;
+                }
+            }
+        }
+    }
+
 
     #accordionAlimentos{
         #collapseOne, #collapseTwo, #collapseThree, #collapseFour, #collapseFive, #collapseSix, #collapseSeven{
@@ -94,6 +160,7 @@
     #eventos1{
         h2{
             margin-top: 5rem;
+            font-size: $titleLg;
         }
         #CarrouselEventos2{
             div{
@@ -113,6 +180,9 @@
 
     #eventos2{
         height: 80vh;
+        h2{
+            font-size: $titleLg;
+        }
         form{
             input[type=text]{
                 width: 35vw;
@@ -141,6 +211,16 @@
     }
 
     #reserva1{
+        div{
+            article{
+                h3{
+                    font-size: $titleMd;
+                }
+                p{
+                    font-size: $textLg;
+                }
+            }
+        }
         .bordeForm{
             padding: 1rem 2rem;
         }
@@ -189,13 +269,51 @@
     }
 
     footer{
-        img{
-            height: map-get($map: $heightSS, $key: 'tablet')
-        }
+        height: map-get($map: $heightSS, $key: 'tablet'); 
+        section{
+            h2{
+                margin-top: 5rem;
+                font-size: $textXl;
+                font-weight: $textBold; 
+            }
+            p{
+                font-size: $textSm;
+                font-weight: $textReg;
+            }
+            div{
+                h4{
+                    font-size: $textMd;
+                    font-weight: $textBold;
+                }
+                ul{
+                    margin-bottom: 5rem;
+                }
+            }
+        }  
+         
     }
 }
 
 @media only screen and (max-width: 768px) {
+    #headerIndex{
+        div{
+            h1{
+                font-size: $titleMd;
+            }
+            h2{
+                font-size: $textXl;
+            }
+        }
+    }
+
+    #headerSecondary{
+        div{
+            h2{    
+                font-size: $titleLg;
+            }
+        }
+    }
+    
     .screenSection{
         height: map-get($map: $heightSS, $key: 'mobile');
         align-items: stretch;
@@ -205,26 +323,30 @@
         div{
             article{
                 .img-nos{
-                    height: 35vh;
+                    height: 250px;
+                    width: 200px;
                 }
             }
             article{
-                h3{
-                    font-size: $textMd;
-                }
                 h2{
-                    font-size: $textLg;
+                    font-size: $titleMd;
                 }
                 p{
+                    margin-left: 3rem;
                     font-size: $textSm;
+                }
+                a{
+                    margin-bottom: 25px;
                 }
             }
         }
     }
 
     #Eventos{
-        h2{
-            font-size: $textLg;
+        div{
+            h2{
+                font-size: $titleMd;
+            }
         }
         #CarrouselEventos{
         }
@@ -269,9 +391,6 @@
                 }
             }
             article{
-                h3{
-                    font-size: $textMd;
-                }
                 h2{
                     font-size: $textLg;
                 }
@@ -283,12 +402,14 @@
     }
 
     #carrNos{
-        height: 450px;
+        height: 500px;
         div{
             div{
                 div{
                     .img-carNos{
+                        width: 100%;
                         height: 450px;
+                        overflow: hidden;
                     }
                 }
             }
@@ -298,9 +419,6 @@
     #nos2{
         div{
             article{
-                h3{
-                    font-size: $textMd;
-                }
                 h2{
                     font-size: $textLg;
                 }
@@ -311,7 +429,7 @@
             article{
                 .img-nos{
                     height:300px ;
-                    width: 200px;
+                    width: 300px;
                     padding: 1rem 0 1rem 0;
                 }
             }
@@ -319,6 +437,9 @@
     }
 
     main{
+        #titleBebidas, #titleAlimentos{
+            font-size: $titleMd;
+        }
         #sectionMenu{
             #elementoMenu{
                 div{
@@ -335,7 +456,7 @@
 
     #eventos1{
         h2{
-            font-size: $textLg;
+            font-size: $textXl;
         }
     }
 
@@ -345,7 +466,7 @@
 
     #eventos2{
         h2{
-            font-size: $textLg;
+            font-size: $textXl;
         }
         form{
             input[type=submit] {
@@ -411,12 +532,10 @@
     }
 
     footer{
-        img{
-            height: map-get($map: $heightSS, $key: 'mobile');
-        }
+        height: map-get($map: $heightSS, $key: 'mobile');
         section{
             h2{
-                font-size: $textXl;
+                font-size: $textLg;
                 font-weight: $textBold; 
             }
             p{

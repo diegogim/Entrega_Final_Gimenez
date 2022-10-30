@@ -1,8 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+@font-face {
+    font-family: 'dust_westitalic';
+    src: url('../src/Dust_West/Dust_West/dust_west-webfont.woff2') format('woff2'),
+         url('../src/Dust_West/Dust_West/dust_west-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 //Fonts
-$fontMain:'Roboto', sans-serif;
-$fontSecondary:'Lato', sans-serif;
+$fontMain:'dust_westitalic', sans-serif;
+$fontSecondary:'Cabin Sketch', cursive;
 
 //Sizes
 $textXs:1rem;
@@ -11,6 +18,10 @@ $textMd:2rem;
 $textLg:3rem;
 $textXl:4rem;
 $textXxl:5rem;
+$titleMd:5rem;
+$titleLg:8rem;
+$titleXl:12rem;
+$titleXxl:15rem;
 
 //Weights
 $textLight:300;

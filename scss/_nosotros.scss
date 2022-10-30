@@ -10,25 +10,19 @@
         }
         article{
             @extend .borde;
-            h3{
-                @extend .text-center;
-                color: map-get($map: $textColor, $key: 'red');
-                font-size: $textLg;
-                font-weight: $textBold;
-            }
             h2{
                 @extend .text-center;
                 @extend .text-uppercase;
                 @extend .margenH;
                 color: map-get($map: $textColor, $key: 'white');
-                font-size: $textXl;
+                font-size: $titleLg;
                 font-weight: $textBold; 
             }
             p{
                 @extend .text-center;
                 @extend .margenP;
                 color: map-get($map: $textColor, $key: 'white');
-                font-size: $textMd;
+                font-size: $textLg;
                 font-weight: $textReg; 
             }
         }
@@ -67,14 +61,14 @@
                 @extend .text-uppercase;
                 @extend .margenH;
                 color: map-get($map: $textColor, $key: 'white');
-                font-size: $textXl;
+                font-size: $titleXl;
                 font-weight: $textBold; 
             }
             p{
                 @extend .text-center;
                 @extend .margenP;
                 color: map-get($map: $textColor, $key: 'white');
-                font-size: $textMd;
+                font-size: $textLg;
                 font-weight: $textReg; 
             }
         }

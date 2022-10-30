@@ -7,7 +7,7 @@
         padding-bottom: 1.5rem;
         @extend .textUnderline;
         color: map-get($map: $textColor, $key: 'white');
-        font-size: $textXl;
+        font-size: $titleXl;
         font-weight: $textBold;
     }
     #CarrouselEventos2{
@@ -57,7 +57,7 @@
         padding-bottom: 1.5rem;
         @extend .textUnderline;
         color: map-get($map: $textColor, $key: 'white');
-        font-size: $textXl;
+        font-size: $titleXl;
         font-weight: $textBold;
     }
     form{

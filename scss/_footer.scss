@@ -2,20 +2,20 @@ footer{
     position: relative;
     overflow: hidden;
     img{
-        height: map-get($map: $heightSS, $key: 'desktop') - 0.5;
+        height: map-get($map: $heightSS, $key: 'desktop');
         width: 100%;
         object-fit: cover;
     }
     section{
         @extend .borde;
-        @extend .text-over-header;
+        @extend .text-over-footer;
         @extend .screenSection;
         background-color: map-get($map: $bgColor, $key: 'footer');
         h2{
             @extend .text-center;
             @extend .text-uppercase;
             color: map-get($map: $textColor, $key: 'white');
-            font-size: $textXxl;
+            font-size: $titleXl;
             font-weight: $textBold; 
         }
         p{

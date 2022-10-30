@@ -9,7 +9,7 @@
                 @extend .text-center;
                 @extend .margenH;
                 color: map-get($map: $textColor, $key: 'white');
-                font-size: $textLg;
+                font-size: $titleXl;
                 font-weight: $textReg;
             }
             p{
@@ -17,7 +17,7 @@
                 @extend .text-center;
                 @extend .margenP;
                 color: map-get($map: $textColor, $key: 'white');
-                font-size: $textMd;
+                font-size: $textLg;
                 font-weight: $textReg;
             }
         }

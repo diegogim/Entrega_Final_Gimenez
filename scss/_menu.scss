@@ -8,7 +8,7 @@ main{
         padding-top: 3rem;
         padding-bottom: 1rem;
         color: map-get($map: $textColor, $key: 'white');
-        font-size: $textXl;
+        font-size: $titleLg;
         font-weight: $textReg;
     }
 
