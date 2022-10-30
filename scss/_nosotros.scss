@@ -61,7 +61,7 @@
                 @extend .text-uppercase;
                 @extend .margenH;
                 color: map-get($map: $textColor, $key: 'white');
-                font-size: $titleXl;
+                font-size: $titleLg;
                 font-weight: $textBold; 
             }
             p{
