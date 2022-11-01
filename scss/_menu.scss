@@ -39,7 +39,7 @@ main{
         #collapseOne, #collapseTwo, #collapseThree, #collapseFour, #collapseFive, #collapseSix, #collapseSeven, #collapseEight{
             .accordion-body{
                 #sectionMenu{
-                    margin: 1.5rem 1rem 1.5rem 0;
+                    margin: 1.5rem 1rem 0 0;
                     #elementoMenu{
                         @extend .borde;
                         border-color: map-get($map: $paletaColor, $key: 'InputDrop');
@@ -71,7 +71,6 @@ main{
                         #elementoImg{
                             #containerImg{
                                 @extend .borde;
-                                
                                 overflow: hidden;
                                 img{
                                     @extend .borde;

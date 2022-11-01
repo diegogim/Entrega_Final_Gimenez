@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass",
-    "sass:watch": "sass --watch scss/main.scss  css/main.css"
+    "sass:watch": "sass --watch scss/main.scss  css/main.css",
+    "build":"purgecss --css css/main.css --content *.html pages/*.html -o css/min.css"
   },
   "author": "",
   "license": "ISC",
